@@ -1,0 +1,139 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #17223b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: #263859;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.display {
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    height: 46px;
+    width: 200px;
+    padding-left: 12px;
+    border-radius: 10px;
+    font-size: 26;
+}
+
+.numberBlock {
+    display: inline-block;
+}
+
+.actionsBlockUp {
+    margin-bottom: 4px;
+}
+
+.actionBlockRight {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.numberBlocks {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.numberBlock-0 {
+    display: inline-block;
+}
+
+.numberBlock-dot {
+    display: inline-block;
+}
+
+.numberButton {
+    background-color: #6b778d;
+    color:aliceblue;
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 26;
+}
+
+.numberButton:hover {
+    background-color: #7d838f;
+}
+
+.numberButton:active {
+    background-color: #989faf;
+}
+
+.numberButton-0 {
+    background-color: #6b778d;
+    color:aliceblue;
+    width: 116px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 26;
+}
+
+.numberButton-0:hover {
+    background-color: #7d838f;
+}
+
+.numberButton-0:active {
+    background-color: #989faf;
+}
+
+.actionButton {
+    background-color: #ff6768;    
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 26;
+}
+
+.actionButton:hover {
+    background-color: #ff8686;
+}
+
+.actionButton:active {
+    background-color: #ffa0a0;
+}
+
+.actionButtonRight {
+    background-color: #ff6768;
+    width: 56px;
+    height: 116px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 26;
+}
+
+.actionButtonRight:hover {
+    background-color: #ff8686;
+}
+
+.actionButtonRight:active {
+    background-color: #ffa0a0;
+}
+
+.AC {
+    margin-bottom: 4px;
+    font-size: 26;
+}
